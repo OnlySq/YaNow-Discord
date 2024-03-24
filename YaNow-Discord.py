@@ -59,7 +59,7 @@ print("█   █▀▀█ █▀▀ █  █ █  █   █  ")
 print("███ █  █ █▄▄ █▀▀▀ ▀▄▄▀ ▄▀ ▀▄")
 print(" ")
 print(" ")
-print("The code works without errors!")
+print("The code started without errors!")
 print("Support: https://t.me/y9chepux/")
 while True:
     try:
@@ -71,5 +71,5 @@ while True:
         else:
             time.sleep(1)
     except:
-        rpc.update(details=f'Ничего не играет', state=f'Яндекс музыка не запущена', large_image='yamusic-icon', large_text='UwU', buttons=buttons)
+        rpc.clear()
         time.sleep(1)
