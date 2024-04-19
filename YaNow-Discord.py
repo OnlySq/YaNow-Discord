@@ -17,7 +17,7 @@ def run():
             os.system("cls")
             print('[\033[01;38;05;46m•\033[m] Connected to Discord')
             time.sleep(2)
-            print("The script was launched successfully (by y9chepux)")
+            print("The script was launched successfully (by IAmScaredOfWoman)")
             time.sleep(2)
             os.system('cls')
             print(" ")
@@ -26,8 +26,9 @@ def run():
             print("███ █  █ █▄▄ █▀▀▀ ▀▄▄▀ ▄▀ ▀▄")
             print(" ")
             print(" ")
-            print("The code started without errors!")
-            print("Support: https://t.me/y9chepux/")
+            print("Program version: 1.2.0")
+            print("Program site: https://chepux.wixsite.com/yanow-for-discord")
+            print("Support: https://t.me/IAmScaredOfWoman/")
             break
         except:
             os.system("cls")
@@ -64,8 +65,8 @@ buttons = [
         "url": "https://music.yandex.ru/"
     },
     {
-        "label": "Developer",
-        "url": "https://t.me/y9chepux/"
+        "label": "Program site",
+        "url": "https://chepux.wixsite.com/yanow-for-discord"
     }
 ]
 
@@ -82,7 +83,7 @@ while True:
                 title = asyncio.run(get_media_info())["title"]
                 media = asyncio.run(get_media_info())
                 f = str(asyncio.run(get_player_info())).replace(".", " ").title()
-                rpc.update(details=f'Слушает Яндекс Музыку', state=f'{media["artist"]} - {media["title"]}', large_image='yamusic-icon', large_text='UwU', buttons=buttons, start=time.time())
+                rpc.update(details=f'Слушает Яндекс Музыку', state=f'{media["artist"]} - {media["title"]}', large_image='yamusic-orig', large_text='Яндекс.Музыка', buttons=buttons, start=time.time())
             else:
                 time.sleep(1)
         except TypeError:
