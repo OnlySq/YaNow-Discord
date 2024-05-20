@@ -10,9 +10,9 @@
 
 Так рождалась легенда о двух программистах, которые не побоялись взяться за трудную задачу и довели её до конца. Их история стала примером для всех тех, кто верит в свои силы и готов сделать невозможное возможным. Yanow остался навсегда в сердцах пользователей Discord, как символ того, что труд всегда оправдывает себя.
 
-Last version: https://github.com/chebupelka10/YaNow-Discord/releases/tag/YaNow-Discord1.2.0
+Last version: https://github.com/chebupelka10/YaNow-Discord/releases/tag/YaNow-Discord1.3.0
 
 Program site: https://chepux.wixsite.com/yanow-for-discord
 
-Developer: https://t.me/IAmScaredOfWoman/ 
+Developer: https://t.me/chepuxcat/ 
 Thanks https://t.me/NoBanOnlyZXC/ 
